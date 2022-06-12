@@ -243,7 +243,7 @@ class MainPageState extends State<MainPage> {
                     "pdf");
               },
               child: Text(
-                "RESUME",
+                "PORTFOLIO",
                 style: GoogleFonts.montserrat(
                   color: themeProv.lightTheme ? Colors.black : Colors.white,
                   fontWeight: FontWeight.w300,
@@ -325,7 +325,7 @@ class MainPageState extends State<MainPage> {
                       color: Colors.red,
                     ),
                     title: Text(
-                      "RESUME",
+                      "PORTFOLIO",
                       style: GoogleFonts.montserrat(
                         fontWeight: FontWeight.w300,
                         color: theme.lightTheme ? Colors.black : Colors.white,

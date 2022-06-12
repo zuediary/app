@@ -78,7 +78,7 @@ class _PortfolioDesktopState extends State<PortfolioDesktop> {
               OutlinedCustomBtn(
                 btnText: "See More",
                 onPressed: () {
-                  launchURL("https://github.com/mhmzdev");
+                  launchURL("https://hisandhermyanmar.github.io/zue");
                 },
               ),
               const SizedBox(width: 8.0),

@@ -1,8 +1,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.hmz.folio">
+    package="com.kzn.zue">
    <uses-permission android:name="android.permission.INTERNET" /> 
    <application
-        android:label="Hamza"
+        android:label="Zue's Diary"
         android:icon="@mipmap/ic_launcher">
         <activity
             android:name=".MainActivity"

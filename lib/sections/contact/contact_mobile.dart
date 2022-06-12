@@ -15,7 +15,7 @@ class ContactMobileTab extends StatelessWidget {
       children: [
         const CustomSectionHeading(text: "\nGet in Touch"),
         const CustomSectionSubHeading(
-            text: "Let's build something together :)\n\n"),
+            text: "Let's make something together :)\n\n"),
         CarouselSlider.builder(
           itemCount: 3,
           itemBuilder: (BuildContext context, int itemIndex, int i) => Padding(

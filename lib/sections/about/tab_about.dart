@@ -50,7 +50,7 @@ class AboutTab extends StatelessWidget {
             height: height * 0.032,
           ),
           Text(
-            "I'm Muhammad Hamza, a Flutter developer, Technical blog writer and UI designer.",
+            "I'm Zue Zue Zin, a Fashion Illustrator, Fashion Illustration Teacher and Founder of His's and Her's Fashion School",
             style: GoogleFonts.montserrat(
               fontSize: height * 0.035,
               fontWeight: FontWeight.w400,
@@ -61,7 +61,7 @@ class AboutTab extends StatelessWidget {
             height: height * 0.02,
           ),
           Text(
-            "I'm a Final Year Computer Science student enrolled in COMSATS University, Islamabad. I have been developing mobile apps for over 1.5 years now. I have worked in teams for various startups and helped them in launching their prototypes and got valuable learning experience. I'm an active Google Developer Student Clubs (DSC) lead and also CEO/Founder Flutter Islamabad, Pakistan.",
+            "I'm Zue Zue Zin, a Fashion Illustrator, Fashion Illustration Teacher and Founder of His's and Her's Fashion School",
             style: GoogleFonts.montserrat(
               fontSize: height * 0.02,
               color: Colors.grey[500],
@@ -87,14 +87,14 @@ class AboutTab extends StatelessWidget {
           Align(
             alignment: Alignment.centerLeft,
             child: Text(
-              "Technologies I have worked with:",
+              "Fashion Technologies I have worked with:",
               style: GoogleFonts.montserrat(
                   color: kPrimaryColor, fontSize: height * 0.018),
             ),
           ),
           Row(
             children: [
-              for (int i = 0; i < kTools.length; i++)
+              for (int i = 0; i < 8; i++)
                 ToolTechWidget(
                   techName: kTools[i],
                 ),
@@ -123,11 +123,11 @@ class AboutTab extends StatelessWidget {
                 children: const [
                   AboutMeData(
                     data: "Name",
-                    information: "Muhammad Hamza",
+                    information: "Zue Zue Zin",
                   ),
                   AboutMeData(
-                    data: "Age",
-                    information: "23",
+                    data: "Founder",
+                    information: "His's & Her and Begonia",
                   ),
                 ],
               ),
@@ -139,11 +139,11 @@ class AboutTab extends StatelessWidget {
                 children: const [
                   AboutMeData(
                     data: "Email",
-                    information: "hamza.6.shakeel@gmail.com",
+                    information: "reganolilypad@gmail.com",
                   ),
                   AboutMeData(
-                    data: "From",
-                    information: "Attock, PK",
+                    data: "Location",
+                    information: "Yangon, Myanmar",
                   ),
                 ],
               ),
@@ -157,7 +157,7 @@ class AboutTab extends StatelessWidget {
               Padding(
                 padding: const EdgeInsets.all(8.0),
                 child: OutlinedCustomBtn(
-                    btnText: "Resume",
+                    btnText: "Portfolio",
                     onPressed: () {
                       kIsWeb
                           ? html.window.open(

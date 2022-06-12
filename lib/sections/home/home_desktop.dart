@@ -49,7 +49,7 @@ class HomeDesktop extends StatelessWidget {
                   mainAxisSize: MainAxisSize.min,
                   children: [
                     AdaptiveText(
-                      "WELCOME TO MY PORTFOLIO! ",
+                      "WELCOME TO MY HIS'S AND HER'S! ",
                       style: GoogleFonts.montserrat(
                         fontSize: height * 0.03,
                         fontWeight: FontWeight.w300,
@@ -73,7 +73,7 @@ class HomeDesktop extends StatelessWidget {
                   height: height * 0.04,
                 ),
                 AdaptiveText(
-                  "Muhammad",
+                  "Zue",
                   style: GoogleFonts.montserrat(
                       fontSize: width < 1200 ? height * 0.085 : height * 0.095,
                       fontWeight: FontWeight.w100,
@@ -83,7 +83,7 @@ class HomeDesktop extends StatelessWidget {
                       letterSpacing: 4.0),
                 ),
                 AdaptiveText(
-                  "Hamza",
+                  "Zue Zin",
                   style: GoogleFonts.montserrat(
                       color: themeProvider.lightTheme
                           ? Colors.black
@@ -113,9 +113,9 @@ class HomeDesktop extends StatelessWidget {
                                 : Colors.white,
                           ),
                           text: const [
-                            " Flutter Developer",
-                            " Technical Writer",
-                            " UI/UX Enthusiast"
+                            " Fashion Illustrator",
+                            " Fashion Illustration Teacher",
+                            " His's and Her's Founder"
                           ]),
                     ],
                   ),

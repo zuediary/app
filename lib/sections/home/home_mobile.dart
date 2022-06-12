@@ -55,7 +55,7 @@ class HomeMobile extends StatelessWidget {
                   height: height * 0.01,
                 ),
                 Text(
-                  "Muhammad",
+                  "I'm",
                   style: GoogleFonts.montserrat(
                       fontSize: height * 0.055,
                       color: themeProvider.lightTheme
@@ -65,7 +65,7 @@ class HomeMobile extends StatelessWidget {
                       letterSpacing: 1.1),
                 ),
                 Text(
-                  "Hamza",
+                  "Zue Zue Zin",
                   style: GoogleFonts.montserrat(
                       color: themeProvider.lightTheme
                           ? Colors.black
@@ -89,9 +89,9 @@ class HomeMobile extends StatelessWidget {
                               : Colors.white,
                           fontWeight: FontWeight.w200),
                       text: const [
-                        " Flutter Developer",
-                        " Technical Writer",
-                        " UI/UX Enthusiast"
+                        " Fashion Illustrator",
+                        " Fashion Illustration Teacher",
+                        " His's and Her's Founder"
                       ],
                     ),
                   ],
@@ -99,18 +99,18 @@ class HomeMobile extends StatelessWidget {
                 SizedBox(
                   height: height * 0.035,
                 ),
-                Row(
-                  mainAxisSize: MainAxisSize.min,
-                  children: [
-                    for (int i = 0; i < kSocialIcons.length; i++)
-                      SocialMediaIconBtn(
-                        icon: kSocialIcons[i],
-                        socialLink: kSocialLinks[i],
-                        height: height * 0.03,
-                        horizontalPadding: 2.0,
-                      )
-                  ],
-                )
+                // Row(
+                //   mainAxisSize: MainAxisSize.min,
+                //   children: [
+                //     for (int i = 0; i < kSocialIcons.length; i++)
+                //       SocialMediaIconBtn(
+                //         icon: kSocialIcons[i],
+                //         socialLink: kSocialLinks[i],
+                //         height: height * 0.03,
+                //         horizontalPadding: 2.0,
+                //       )
+                //   ],
+                // )
               ],
             ),
           ),

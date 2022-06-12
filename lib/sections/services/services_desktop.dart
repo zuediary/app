@@ -132,14 +132,15 @@ class ServiceCardBackWidget extends StatelessWidget {
                           CustomFilledBtn(
                             height: 40.0,
                             onPressed: () => launchURL(
-                                "https://api.whatsapp.com/send?phone=923460159889"),
-                            btnColor: const Color(0xff34CB62),
+                                "https://m.me/hisandhermyanmar"),
+                            btnColor: Colors.black,
                             child: Row(
                               mainAxisSize: MainAxisSize.min,
                               children: const [
-                                Icon(FontAwesomeIcons.whatsapp),
+                                Icon(FontAwesomeIcons.facebookMessenger,
+                                color: Colors.blueAccent,),
                                 SizedBox(width: 8.0),
-                                Text("WhatsApp"),
+                                Text("Messenger"),
                               ],
                             ),
                           ),
@@ -148,17 +149,16 @@ class ServiceCardBackWidget extends StatelessWidget {
                             height: 40.0,
                             onPressed: () => launchURL(
                                 "https://www.upwork.com/freelancers/~0197b0f6aaeba9675f"),
-                            btnColor: const Color(0xff13A800),
+                            btnColor: Colors.black,
                             child: Row(
                               mainAxisSize: MainAxisSize.min,
                               children: [
                                 Image.network(
-                                  "https://img.icons8.com/ios-filled/50/000000/upwork.png",
-                                  height: 35.0,
-                                  color: Colors.white,
+                                  "https://logos-world.net/wp-content/uploads/2020/12/Fiverr-Logo.png",
+                                  height: 27,
+                                  // color: Colors.green,
                                 ),
-                                const SizedBox(width: 8.0),
-                                const Text("Upwork"),
+                                const Text("Fiverr Freelance"),
                               ],
                             ),
                           ),

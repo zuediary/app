@@ -53,7 +53,7 @@ class AboutMobile extends StatelessWidget {
             height: height * 0.028,
           ),
           Text(
-            "I'm Muhammad Hamza, a Flutter developer, Technical blog writer and UI designer.",
+            "I'm Zue Zue Zin, a Fashion Illustrator, Fashion Illustration Teacher",
             style: GoogleFonts.montserrat(
               fontSize: height * 0.022,
               fontWeight: FontWeight.w400,
@@ -64,7 +64,7 @@ class AboutMobile extends StatelessWidget {
             height: height * 0.02,
           ),
           Text(
-            "I'm a Final Year Computer Science student enrolled in COMSATS University, Islamabad. I have been developing mobile apps for over 1.5 years now. I have worked in teams for various startups and helped them in launching their prototypes and got valuable learning experience. I'm an active Google Developer Student Clubs (DSC) lead and also CEO/Founder Flutter Islamabad, Pakistan.",
+            "I'm Zue Zue Zin, a Fashion Illustrator, Fashion Illustration Teacher and Founder of His's and Her's Fashion School",
             style: GoogleFonts.montserrat(
               fontSize: height * 0.018,
               color: Colors.grey[500],
@@ -90,7 +90,7 @@ class AboutMobile extends StatelessWidget {
           Align(
             alignment: Alignment.centerLeft,
             child: Text(
-              "Technologies I have worked with:",
+              "Fashion Technologies I have worked with:",
               style: GoogleFonts.montserrat(
                   color: kPrimaryColor, fontSize: height * 0.015),
             ),
@@ -129,12 +129,12 @@ class AboutMobile extends StatelessWidget {
           ),
           const AboutMeData(
             data: "Name",
-            information: "Muhammad Hamza",
+            information: "Zue Zue Zin",
             alignment: Alignment.centerLeft,
           ),
           const AboutMeData(
             data: "Email",
-            information: "hamza.6.shakeel@gmail.com",
+            information: "reganolilypad@gmail.com",
             alignment: Alignment.centerLeft,
           ),
           SizedBox(
@@ -147,7 +147,7 @@ class AboutMobile extends StatelessWidget {
                 Padding(
                   padding: const EdgeInsets.all(8.0),
                   child: OutlinedCustomBtn(
-                      btnText: "Resume",
+                      btnText: "Portfolio",
                       onPressed: () {
                         kIsWeb
                             ? html.window.open(

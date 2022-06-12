@@ -39,7 +39,7 @@ class MyAppState extends State<MyApp> {
       ],
       child: MaterialApp(
         debugShowCheckedModeBanner: false,
-        title: 'Hamza',
+        title: 'Zue Zue Zin',
         theme: ThemeStyles.themeData(
           _themeProvider.lightTheme,
           context,

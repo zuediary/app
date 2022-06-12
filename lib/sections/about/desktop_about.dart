@@ -57,7 +57,7 @@ class AboutDesktop extends StatelessWidget {
                         height: height * 0.03,
                       ),
                       AdaptiveText(
-                        "I'm Muhammad Hamza, a Flutter developer, Technical blog writer and UI designer.",
+                        "I'm Zue Zue Zin, a Fashion Illustrator, Fashion Illustration Teacher",
                         style: GoogleFonts.montserrat(
                           fontSize: height * 0.035,
                           fontWeight: FontWeight.w400,
@@ -70,7 +70,7 @@ class AboutDesktop extends StatelessWidget {
                         height: height * 0.02,
                       ),
                       AdaptiveText(
-                        "I'm a Fresh Graduate with Computer Science as Majors from COMSATS University, Islamabad. I have been developing mobile apps for over 2 years now. I have worked in teams for various startups and helped them in launching their prototypes and got valuable learning experience. Been a former  Google Developer Student Clubs (DSC) lead and also CEO/Co-Founder Flutter Islamabad, Pakistan. Currently working as Associate Software Engineer at Sastaticket.pk",
+                        "I'm Zue Zue Zin, a Fashion Illustrator, Fashion Illustration Teacher",
                         style: GoogleFonts.montserrat(
                           fontSize: height * 0.02,
                           color: Colors.grey[500],
@@ -100,12 +100,20 @@ class AboutDesktop extends StatelessWidget {
                       ),
                       Row(
                         children: [
-                          for (int i = 0; i < kTools.length; i++)
+                          for (int i = 0; i < 8; i++)
                             ToolTechWidget(
                               techName: kTools[i],
                             ),
                         ],
                       ),
+                      // Row(
+                      //   children: [
+                      //     for (int i = 6; i < 8; i++)
+                      //       ToolTechWidget(
+                      //         techName: kTools[i],
+                      //       ),
+                      //   ],
+                      // ),
                       SizedBox(
                         height: height * 0.02,
                       ),
@@ -127,11 +135,11 @@ class AboutDesktop extends StatelessWidget {
                         children: const [
                           AboutMeData(
                             data: "Name",
-                            information: "Muhammad Hamza",
+                            information: "Zue Zue Zin",
                           ),
                           AboutMeData(
                             data: "Email",
-                            information: "hamza.6.shakeel@gmail.com",
+                            information: "reganolilypad@gmail.com",
                           ),
                         ],
                       ),
@@ -148,7 +156,7 @@ class AboutDesktop extends StatelessWidget {
                                     'https://drive.google.com/file/d/1FaHIzT9FigDHLx8NlxFIyQfjJTyN9WQ6/view?usp=sharing',
                                     "pdf");
                               },
-                              btnText: "Resume",
+                              btnText: "Portfolio",
                             ),
                           ),
                           Container(

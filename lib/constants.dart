@@ -45,14 +45,16 @@ final kCommunityLinks = [
 
 // Tools & Tech
 final kTools = [
-  "Flutter",
-  "Dart",
-  "Python",
-  "Java",
-  "C++",
-  "HTML",
-  "CSS",
-  "Bootstrap"
+  "Houndstooth",
+  "Denim",
+  "Fur",
+  "Lace",
+  "Leather",
+  "Checked",
+  "Ombré",
+  "Leopard",
+  "Tweed",
+  "Spangle",
 ];
 
 // services
@@ -65,19 +67,19 @@ final kServicesIcons = [
 ];
 
 final kServicesTitles = [
-  "Mobile App Development",
-  "UI/UX Designing",
-  "Rapid Prototyping",
-  "Technical Blog Writing",
-  "Open Source - GitHub",
+  "Fashion Illustration Teaching",
+  "Fashion Designing",
+  "Clothing Brand",
+  "Fashion Blog Writing",
+  "Fashion Consultant",
 ];
 
 final kServicesDescriptions = [
-  "Android app development via Flutter\n- Splash Screen\n- Firebase Auth/Cloud\n- REST APIs\n- Maps integration and more...!",
-  "Modern UI/UX Designing\n- Adobe XD\n- Mobile & Web designs\n- Interactive UI designs\n- Responsiveness\n- Promo Videos and more..!",
-  "Rapid Prototype via Flutter\n- Working MVP\n- Quick & Working prototype",
-  "Technical Blog writing\n- Medium blogs\n- Soothing header images\n- SEO friendly\n- Researched topics and more..!",
-  "Open source GitHub Projects\n- Awesome README.md\n- Well documented\n- Header images and more...!",
+  "Fashion Drawing Classes\n1. WomenSwear(Basic)\n2. WomenSwear (Advance)\n3. MenSwear(Basic)\n4. WomenSwear (Advance)\n5. Garment Sketch Drawing\n6. Myanmar Dress",
+  "Fashion Designing\n1. Uniform\n2. Ready to Wear\n3. Miss Universe\n4. and many more..!",
+  "Begonia Clothing Brand\n1. Uniform\n2. Ready to Wear\n3. and many more..!",
+  "Fashion Blogs\n1. Fashion Knowledge blogs\n1. Fashion Knowledge Vlogs\n3. and many more..!",
+  "Fashion Consultant\n1. Uniform\n2. Ready to Wear\n3. Miss Universe\n4. and many more..!",
 ];
 
 // projects
@@ -89,16 +91,16 @@ final kProjectsBanner = [
 ];
 
 final kProjectsIcons = [
-  "assets/projects/medkit.png",
-  "assets/projects/quran.png",
-  "assets/projects/hereiam.png",
-  "assets/projects/covid.png",
-  "assets/projects/messenger.png",
-  "assets/projects/flutter.png",
-  "assets/projects/earbender.png",
-  "assets/projects/java.png",
-  "assets/projects/android.png",
-  "assets/services/open.png",
+  "assets/cui.png",
+  "assets/cui.png",
+  "assets/cui.png",
+  "assets/cui.png",
+  "assets/cui.png",
+  "assets/cui.png",
+  "assets/cui.png",
+  "assets/cui.png",
+  "assets/cui.png",
+  "assets/cui.png",
 ];
 
 final kProjectsTitles = [
@@ -154,7 +156,7 @@ final kContactTitles = [
 ];
 
 final kContactDetails = [
-  "Attock, Pakistan",
-  "(+92) 346 0159889",
-  "hamza@mhmz.dev"
+  "Yangon, Myanmar",
+  "(+95) 9 79 466 4377",
+  "reganolilypad@gmail.com"
 ];
